@@ -169,6 +169,22 @@ export const dndAdhocMetricsControl: SharedControlConfig<
   description: t('One or many metrics to display'),
 };
 
+export const dndAdhocMetricsControl2: SharedControlConfig<
+  'DndMetricSelect2' | 'MetricsControl'
+> = {
+  type: 'DndMetricSelect2',
+  multi: false,
+  label: t('Metrics2'),
+  validators: [validateNonEmpty],
+  mapStateToProps: ({ datasource }) => ({
+    columns: datasource?.columns || [],
+    savedMetrics: defineSavedMetrics(datasource),
+    datasource,
+    datasourceType: datasource?.type,
+  }),
+  description: t('One or many metrics to display'),
+};
+
 export const dndAdhocMetricControl: typeof dndAdhocMetricsControl = {
   ...dndAdhocMetricsControl,
   multi: false,

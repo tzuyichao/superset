@@ -42,6 +42,7 @@ import FilterBoxItemControl from './FilterBoxItemControl';
 import ConditionalFormattingControl from './ConditionalFormattingControl';
 import DndColumnSelectControl, {
   DndColumnSelect,
+  DndMetricSelect2,
   DndFilterSelect,
   DndMetricSelect,
 } from './DndColumnSelectControl';
@@ -62,6 +63,7 @@ const controlMap = {
   DateFilterControl,
   DndColumnSelectControl,
   DndColumnSelect,
+  DndMetricSelect2,
   DndFilterSelect,
   DndMetricSelect,
   FixedOrMetricControl,

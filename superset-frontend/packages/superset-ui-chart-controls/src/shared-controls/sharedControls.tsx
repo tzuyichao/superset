@@ -82,6 +82,7 @@ import {
   dndGroupByControl,
   dndSeriesControl,
   dndAdhocMetricControl2,
+  dndAdhocMetricsControl2,
   dndXAxisControl,
 } from './dndControls';
 
@@ -378,6 +379,7 @@ const temporal_columns_lookup: SharedControlConfig<'HiddenControl'> = {
 export default {
   metrics: dndAdhocMetricsControl,
   metric: dndAdhocMetricControl,
+  test: dndAdhocMetricsControl2,
   datasource: datasourceControl,
   viz_type,
   color_picker,

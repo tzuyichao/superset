@@ -18,5 +18,6 @@
  */
 export { default } from './DndSelectLabel';
 export * from './DndColumnSelect';
+export * from './DndMetricSelect2';
 export * from './DndFilterSelect';
 export * from './DndMetricSelect';

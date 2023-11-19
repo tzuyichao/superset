@@ -164,6 +164,7 @@ export type InternalControlType =
   | 'AdhocFilterControl'
   | 'FilterBoxItemControl'
   | 'DndColumnSelect'
+  | 'DndMetricSelect2'
   | 'DndFilterSelect'
   | 'DndMetricSelect'
   | 'CurrencyControl'

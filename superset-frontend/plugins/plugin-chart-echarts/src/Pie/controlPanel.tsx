@@ -112,6 +112,7 @@ const config: ControlPanelConfig = {
             },
           },
         ],
+        ['test'],
         [
           {
             name: 'number_format',
