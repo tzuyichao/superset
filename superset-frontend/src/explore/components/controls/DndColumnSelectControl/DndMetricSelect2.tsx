@@ -369,4 +369,4 @@ const DndMetricSelectWithFallback = withDndFallback(
   MetricsControl,
 );
 
-export { DndMetricSelectWithFallback as DndMetricSelect };
+export { DndMetricSelectWithFallback as DndMetricSelect2 };
